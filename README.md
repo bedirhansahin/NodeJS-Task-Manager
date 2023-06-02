@@ -18,5 +18,14 @@ npm run start
 - go [http://localhost:3000/api/v1/tasks](http://localhost:3000/api/v1/tasks)
 
 
-## Do not forget create a mongodb connection!
-## Create a .env file and add MONGO_URI environment
+### Do not forget create a mongodb connection!
+### Create a .env file and add MONGO_URI environment
+
+
+## ENDPOINTS
+
+- Get: http://localhost:3000/api/v1/tasks
+- Get: http://localhost:3000/api/v1/tasks/:id
+- Update: http://localhost:3000/api/v1/tasks/:id
+- Delete: http://localhost:3000/api/v1/tasks/:id
+- Create: http://localhost:3000/api/v1/tasks
